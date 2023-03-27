@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+header{
+    background-color: black;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.Container{
+    background-color: aquamarine;
+    height: 45rem;
+    display: flex;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+
+
+
+.Container__Menu{
+    background-color: royalblue;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container__Contenido{
+    background-color: turquoise;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
